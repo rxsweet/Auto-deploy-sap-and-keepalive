@@ -2,8 +2,8 @@ name: test
 
 on:
   workflow_dispatch:  # 只允许手动触发
-  schedule:
-   - cron: '*/5 * * * *'
+    schedule:
+        - cron: '*/5 * * * *'
     inputs:
       type:
         description: '选择部署的节点类型'

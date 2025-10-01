@@ -2,7 +2,8 @@ name: test
 
 on:
   workflow_dispatch:  # 只允许手动触发
-
+  #schedule:
+      #- cron: '*/5 * * * *'
 env:
   MEMORY: 256M
 

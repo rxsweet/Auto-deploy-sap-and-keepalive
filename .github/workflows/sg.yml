@@ -1,4 +1,4 @@
-name: test
+name: sg
 
 on:
   workflow_dispatch:  # 只允许手动触发
